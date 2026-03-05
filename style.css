@@ -1,14 +1,49 @@
 html{
-    background-color: lightblue;
-}
-h1{
-    color: white;
+    background-color: lightyellow;;
     text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
 }
 p{
     font-family: verdana;
     font-size: 20px;
 }
-a{
-    color: red;
+nav {
+    background-color: lightblue;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name {
+    color: white;
+    font-size: 25px;
+    padding: 0 30px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    border: 10px solid lightblue;
+    background-color: lightcoral;
+    color: white;
+    transition: all 0.3s ease;
+}
+nav li a:hover {
+    padding: 20px 20px;
+    border: 15px solid lightblue;
 }
