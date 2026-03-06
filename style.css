@@ -11,16 +11,17 @@ p{
     font-size: 20px;
 }
 nav {
-    background-color: lightblue;
+    background-color: white;
     overflow: hidden;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 3px solid yellow;
 }
 .name {
-    color: white;
+    color: black;
     font-size: 25px;
     padding: 0 30px;
 }
@@ -33,17 +34,16 @@ nav ul {
 }
 nav li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 15px 15px;
     text-decoration: none;
     font-size: 25px;
-    border: 10px solid lightblue;
-    background-color: lightcoral;
-    color: white;
-    transition: all 0.3s ease;
+    border: 10px solid white;
+    background-color: lightblue;
+    transition: all 0.3s;
 }
 nav li a:hover {
     padding: 20px 20px;
-    border: 15px solid lightblue;
+    border: 15px solid white;
 }
