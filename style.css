@@ -44,14 +44,14 @@ nav li a:hover {
 h1.welcome-message {
     font-size: 60px;
     color: darkblue;
-    margin-top: 5%;
+    margin-top: 7%;
     text-align: left;
     padding-left: 7%;
     width: 50%;
 }
 p.about{
     font-size: 30px;
-    width: 40%;
+    width: 50%;
     margin-top: 5%;
     margin-left: 7%;
     float:left;
