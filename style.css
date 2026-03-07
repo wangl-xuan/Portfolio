@@ -5,11 +5,11 @@ body {
     margin: 0;
     padding: 0;
 }
-p{
+.name {
+    color: white;
     font-size: 30px;
-    width: 60%;
-    padding-left: 7%;
-    margin-top: 10%;
+    padding: 0 100px;
+    font-family: 'Poppins', sans-serif;
 }
 nav {
     background-color: black;
@@ -20,12 +20,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     border-bottom: 3px solid orange;
-}
-.name {
-    color: white;
-    font-size: 30px;
-    padding: 0 100px;
-    font-family: 'Poppins', sans-serif;
 }
 nav ul {
     list-style-type: none;
@@ -47,27 +41,6 @@ nav li a {
 nav li a:hover {
     color: orange;
 }
-.content-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-top: 5%;
-    padding: 0 7%;
-    margin-right: 5%;
-}
-.text-section p {
-    margin: 0;
-}
-.image-section {
-    flex: 0 0 30%;
-}
-.image-section img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 15px 15px 15px rgba(0,0,0,0.3);
-    display: block;
-}
 h1.welcome-message {
     font-size: 60px;
     color: darkblue;
@@ -76,17 +49,38 @@ h1.welcome-message {
     padding-left: 7%;
     width: 50%;
 }
+p.about{
+    font-size: 30px;
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 7%;
+    float:left;
+}
+img.portfolio-image{
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgba(0,0,0,0.3);
+    float: right;
+    margin-bottom: 5%;
+    margin-right:10%;
+    margin-top:5%;
+}
 img.portfolio-image:hover{
     transform: scale(1.05);
     transition: 0.3s;
 }
-p.tips{
-    font-size: 15px;
-    color: green;
-}
 b.name{
-    font-size: 50px;
-    color:blue
+    color: blue;
+    font-size: 40px;
+}
+p.tips{
+    font-size: 16px;
+    color: green;
+    margin-left: 7%;
+    float:left;
+}
+div.about-container{
+    overflow: auto;
 }
 h1.project-title{
     font-size: 50px;
@@ -118,4 +112,33 @@ p.web-project-description{
     margin: auto;
     margin-top: 2%;
     text-align: center;
+    font-size:30px
+}
+img.model-project-image{
+    width: 40%;
+    border-radius: 10px;
+    float: left;
+    margin-bottom: 5%;
+    margin-left:10%;
+    margin-top:5%;
+}
+div.container {
+    overflow: auto;
+}
+p.model-project-description{
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 30px;
+    float: right;
+    margin-right:5%;
+}
+video{
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    float: left;
+    margin-bottom: 5%;
+    margin-left:10%;
+    margin-top:5%;
 }
