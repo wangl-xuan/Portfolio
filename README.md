@@ -1,3 +1,3 @@
 # Portfolio
 
-[My Protfolio](https://wangl-xuan.github.io/Portfolio/)
+[My Portfolio](https://wangl-xuan.github.io/Portfolio/)
